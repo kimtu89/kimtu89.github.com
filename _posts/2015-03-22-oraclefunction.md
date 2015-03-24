@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (기술)오라클 내장함수
+title: (기술) 오라클 내장함수
 ---
 
 간단한 업무를 몇 개 맡게 되면서 여러 쿼리문도 접하게 되었습니다.
@@ -48,3 +48,6 @@ title: (기술)오라클 내장함수
  - NVL2(exp1,exp2,exp3): exp1가 null이 아니라면 exp2를 반환하고 null이라면 exp3을 반환합니다. ( NVL(null,1,2) = 2 )
  
 변환 함수
+
+ - TO_CHAR(number, format) or TO_CHAR(datetime, format): 날짜형 데이터나 숫자형 데이터를 format에 맞춰 문자열로 변환합니다.
+ - TO_DATE(char, format): char 문자열을 format에 맞춰 날짜형 데이터로 변환합니다.
