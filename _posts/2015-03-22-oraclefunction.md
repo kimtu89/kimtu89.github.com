@@ -51,3 +51,7 @@ title: (기술) 오라클 내장함수
 
  - TO_CHAR(number, format) or TO_CHAR(datetime, format): 날짜형 데이터나 숫자형 데이터를 format에 맞춰 문자열로 변환합니다.
  - TO_DATE(char, format): char 문자열을 format에 맞춰 날짜형 데이터로 변환합니다.
+
+ ---
+ 
+이외에도 많은 함수들이 있기에 업무를 진행하면서 새로운 함수들을 접할 때마다 하나씩 추가하려고 합니다.
