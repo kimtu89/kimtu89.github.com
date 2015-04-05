@@ -11,10 +11,12 @@ title: (기술) iBatis 동적 SQL
 : 프로퍼티의 상태를 체크합니다.
 
 속성
+
  - prepend – 앞에 추가적으로 붙는 부분("AND", "OR", "," 등)
  - property – 비교할 프로퍼티
  
 요소들
+
  - isPropertyAvailable: 프로퍼티가 유효하다면 내부 쿼리문을 포함
  - isNotPropertyAvailable: 프로퍼티가 유효하지 않다면 내부 쿼리문을 포함
  - isNull: 프로퍼티가 null이라면 내부 쿼리문을 포함
@@ -28,6 +30,7 @@ title: (기술) iBatis 동적 SQL
 : 프로퍼티 값을 특정 값과 비교하거나 다른 프로퍼티와 비교합니다.
 
 속성
+
  - prepend: 앞에 추가적으로 붙는 부분("AND", "OR", "," 등)
  - property: 비교할 프로퍼티
  - compareProperty: 비교될 다른 프로퍼티
@@ -35,6 +38,7 @@ title: (기술) iBatis 동적 SQL
 ※ compareProperty와 compareValue 둘 중 하나 사용
 
 요소들
+
  - isEqual: 프로퍼티 값이 다른 프로퍼티 값이나 특정 값과 같다면 내부 쿼리문을 포함
  - isNotEqual: 프로퍼티 값이 다른 프로퍼티 값이나 특정 값과 같지 않다면 내부 쿼리문을 포함
  - isGreaterThen: 프로퍼티 값이 다른 프로퍼티 값이나 특정 값 보다 크다면 내부 쿼리문을 포함
