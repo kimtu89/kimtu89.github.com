@@ -35,6 +35,7 @@ title: (기술) iBatis 동적 SQL
  - property: 비교할 프로퍼티
  - compareProperty: 비교될 다른 프로퍼티
  - compareValue: 비교될 특정 값
+
 ※ compareProperty와 compareValue 둘 중 하나 사용
 
 요소들
