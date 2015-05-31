@@ -20,10 +20,13 @@ Static Method
 <strong>사용의 차이</strong>
 
 일반 메소드는 클래스의 인스턴스를 선언하여 함수를 호출합니다. 
+
 ```JAVA
 new ObjectMapper().readValue(jsonData, HashMap.class);
 ```
+
 스태틱메소드는 클래스 이름만으로 직접 호출할 수 있습니다.
+
 ```JAVA
 PropertyUtils.describe(object);
 ```
