@@ -34,6 +34,6 @@ BeanUtils.populate(object, map);
 이 경우 다음과 같이 컨버터를 등록하여 해결하였습니다.
 
 ```JAVA
-beanUtilsBean.getConvertUtils().register(new org.apache.commons.beanutils.converters.SqlTimestampConverter(null), java.sql.Timestamp.class);
-beanUtilsBean.getConvertUtils().register(new org.apache.commons.beanutils.converters.BigDecimalConverter(null), java.math.BigDecimal.class);
+beanUtilsBean.getConvertUtils().register(new SqlTimestampConverter(null), java.sql.Timestamp.class);
+beanUtilsBean.getConvertUtils().register(new BigDecimalConverter(null), java.math.BigDecimal.class);
 ```
