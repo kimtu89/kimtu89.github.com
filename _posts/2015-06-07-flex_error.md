@@ -96,7 +96,7 @@ ex) var xxx: String; -> private var xxx: String;
 <strong>invalid character or markup for found in script block. Try surrounding your code with a CDATA block.</strong>
 * 에러 레벨: Error
 * 발생 원인: 태그기호 " \< " 가 하나 더 있을떄
-* 코드 예시: <mx:Model> .... <</mx:model>
+* 코드 예시: \<mx:Model\> .... \<\</mx:model\>
 * 해결 방법: 추가된 " \< " 를 찾아서 제거 한다.
 
 <strong>Encounterd " \> ＼n " at line41, column16.</strong>
